@@ -1,0 +1,168 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "poppins", sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url("pexel1.jpg");
+            background-size: cover;
+        }
+        
+        .wrapper {
+            width: 420px;
+            background: transparent;
+            color: #fff;
+            border-radius: 12px;
+            padding: 30px 40px;
+            border: 2px solid rgb(190, 127, 0);
+        }
+        
+        .wrapper h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+        
+        .wrapper .input-box {
+            position: relative;
+            width: 100%;
+            height: 50px;
+            margin: 30px 0;
+        }
+        
+        .input-box input {
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgba(205, 110, 16, 0.2);
+            border-radius: 40px;
+            font-size: 26px;
+            color: #fff;
+            padding: 20px 45px 20px 20px;
+        }
+        
+        .input-box input::placeholder {
+            color: #fff;
+        }
+        
+        .input-box i {
+            position: absolute;
+            right: 20px;
+            top: 30%;
+            transform: translate(-50%);
+            font-size: 20px;
+        }
+        
+        .wrapper .forgot {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: -15px 0 15px;
+        }
+        
+        .forgot label input {
+            accent-color: #fff;
+            margin-right: 3px;
+        }
+        
+        .forgot a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .forgot a:hover {
+            text-decoration: underline;
+        }
+        
+        .wrapper .btn {
+            width: 100%;
+            height: 45px;
+            background: #fff;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .wrapper .register-link {
+            font-size: 14.5px;
+            text-align: center;
+            margin: 20px 0 16px;
+        }
+        
+        .register-link p a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .register-link p a:hover {
+            text-decoration: underline;
+        }
+        
+        .input-box input:hover {
+            transition: border-radius 0.5s ease;
+            animation: rainbow 3s infinite;
+        }
+        
+        @keyframes rainbow {
+            10% {
+                border-color: red;
+            }
+            20% {
+                border-color: orange;
+            }
+            40% {
+                border-color: yellow;
+            }
+            60% {
+                border-color: green;
+            }
+            80% {
+                border-color: blue;
+            }
+            100% {
+                border-color: purple;
+            }
+        }
+        
+        .btn:active {
+            background-color: rgb(250, 181, 43);
+        }
+        
+        .wrapper:hover {
+            transition: border-radius 0.5s ease;
+            animation: rainbow 3s infinite;
+        }
+        
+        @keyframes rainbow {
+            10% {
+                border-color: red;
+            }
+            20% {
+                border-color: orange;
+            }
+            40% {
+                border-color: yellow;
+            }
+            60% {
+                border-color: green;
+            }
+            80% {
+                border-color: blue;
+            }
+            100% {
+                border-color: purple;
+            }
+        }
